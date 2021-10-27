@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseIntElementInAnArrayAndSum", "ReverseIntElementInAnArrayAndSum.csproj", "{DB489352-246D-455A-95CD-BB90702AED29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB489352-246D-455A-95CD-BB90702AED29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB489352-246D-455A-95CD-BB90702AED29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB489352-246D-455A-95CD-BB90702AED29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB489352-246D-455A-95CD-BB90702AED29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0B2DACE-4F99-4E72-987E-3801090A17D9}
+	EndGlobalSection
+EndGlobal
