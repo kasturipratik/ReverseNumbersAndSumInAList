@@ -39,14 +39,32 @@ namespace ReverseIntElementInAnArrayAndSum
         // convert int into string, revers it and convert back to num
         static int ReverseNumWithString(int num)
         {
+            var flag = false;
+            if (num < 0)
+            {
+                flag = true;
+                num *= -1;
+            }
             var convertNum = num.ToString();
             var reversedConvertedString = new Char[convertNum.Length];
-            for(int i =1; i <=convertNum.Length; i++)
+            for (int i = 1; i <= convertNum.Length; i++)
             {
-                reversedConvertedString[convertNum.Length - i] = convertNum[i-1];
+                reversedConvertedString[convertNum.Length - i] = convertNum[i - 1];
             }
             convertNum = new string(reversedConvertedString);
-            return Convert.ToInt32(convertNum);
+            try
+            {
+                if (flag)
+                {
+                    return Convert.ToInt32(convertNum) * -1;
+                }
+                return Convert.ToInt32(convertNum);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return 0;
+            }
         }
     }
 }
